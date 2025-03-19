@@ -27,6 +27,7 @@ jobs:
           cd $SSH_PATH
           git checkout main
           git pull
+          source ~/.nvm/nvm.sh
           npm install
           exit
           EOF
