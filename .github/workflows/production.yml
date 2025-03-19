@@ -27,5 +27,6 @@ jobs:
           cd $SSH_PATH
           git checkout main
           git pull
+          npm install
           exit
           EOF
